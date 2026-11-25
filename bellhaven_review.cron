@@ -1,0 +1,3 @@
+# Example user crontab entry. Runs at 6:00 a.m. in the machine's local time zone.
+# Adjust the Python and checkout paths. Keep the token file outside the checkout.
+0 6 * * * /usr/bin/python3 -B "$HOME/projects/bellhaven-crm-review/review_bellhaven.py" --refresh-only --token-file "$HOME/.config/bellhaven/crm-token" >> "$HOME/.config/bellhaven/daily.log" 2>&1

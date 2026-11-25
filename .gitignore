@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.idea/
+.env
+.env.*
+*.sqlite3
+*.sqlite3-*
+*.log
+crm-token
+/bellhaven_crm_matches.csv
+/bellhaven_crm_exceptions.csv
